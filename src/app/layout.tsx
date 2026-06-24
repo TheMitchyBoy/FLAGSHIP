@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://fathomline.com"),
-  title: "Fathomline — Ideas at Depth",
+  title: "Fathomline — Deep Learning, Fathomed",
   description:
-    "A living showcase of hardware & software concepts. Sound the depths, then vote on what surfaces next.",
+    "A living showcase of deep-learning & AI concepts — from research mockups to production models. Explore what we're building, then vote on what surfaces next.",
 };
 
 export default function RootLayout({
@@ -38,7 +38,7 @@ export default function RootLayout({
         <footer className="border-t border-white/10 py-8 mt-20">
           <div className="mx-auto max-w-6xl px-6 text-sm text-white/40 flex flex-col sm:flex-row gap-2 justify-between">
             <span>© {new Date().getFullYear()} Fathomline. Built with Next.js.</span>
-            <span>Sound · Vote · Build · Surface</span>
+            <span>Train · Vote · Build · Ship</span>
           </div>
         </footer>
       </body>

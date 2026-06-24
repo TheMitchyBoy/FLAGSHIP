@@ -11,19 +11,20 @@ export default function Home() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-300 opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-300" />
             </span>
-            Charting hardware &amp; software · live
+            Deep learning &amp; AI · live
           </span>
 
           <h1 className="mt-6 text-5xl font-bold leading-[1.05] tracking-tight sm:text-7xl">
-            Sound the depths.
+            Intelligence runs deep.
             <br />
             <span className="text-gradient">You decide what surfaces.</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/60">
-            A living portfolio of concepts — finished products, working
-            prototypes, and bold mockups charted at every depth. Explore the
-            soundings and vote for the ideas you want brought to the surface.
+            A living portfolio of deep-learning &amp; AI concepts — production
+            models, working prototypes, and bold research mockups. Explore what
+            we&apos;re building and vote for the ideas you want brought to the
+            surface.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -47,10 +48,10 @@ export default function Home() {
 
         <div className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-4">
           {[
-            { label: "Concepts", value: "Hardware + Software" },
-            { label: "Soundings", value: "Idea → Surfaced" },
-            { label: "Crew", value: "1 vote = 1 voice" },
-            { label: "Charts updated", value: "Continuously" },
+            { label: "Stack", value: "Models + Hardware" },
+            { label: "Pipeline", value: "Research → Shipped" },
+            { label: "Community", value: "1 vote = 1 voice" },
+            { label: "Updated", value: "Continuously" },
           ].map((item) => (
             <div key={item.label} className="glass rounded-2xl p-4 text-center">
               <div className="text-sm font-semibold text-white">

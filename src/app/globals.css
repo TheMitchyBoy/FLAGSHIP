@@ -76,7 +76,7 @@ body {
   }
 }
 
-/* Sea-chart graticule — faint cyan lat/long lines fading into the deep. */
+/* Latent-space grid — faint cyan lines fading into the deep. */
 .grid-overlay {
   position: fixed;
   inset: 0;
